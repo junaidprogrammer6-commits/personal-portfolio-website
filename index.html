@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Junaid - Web Developer Portfolio">
+  <title>Junaid | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">Junaid<span>.</span></a>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">☀</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Junaid</span></h1>
+        <h2>I am a <span id="typingText"></span><span class="cursor">|</span></h2>
+        <p class="hero-text">
+          I build responsive websites and useful digital experiences with clean,
+          modern and user-friendly designs.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/junaidprogrammer6-commits" target="_blank" aria-label="GitHub">GH</a>
+          <a href="https://www.linkedin.com/in/junaid-programmer-0b8220430" target="_blank" aria-label="LinkedIn">in</a>
+          <a href="mailto:junaidprogrammer6@gmail.com" aria-label="Email">@</a>
+        </div>
+      </div>
+
+       <div class="hero-visual reveal">
+        <div class="profile-card">
+          <div class="profile-glow"></div>
+          <div class="profile-avatar"><img src="src/WhatsApp Image 2026-10-01 at 5.12.11 AM.jpeg" alt="Junaid"></div>
+          <div class="code-lines">
+            <span>&lt;developer&gt;</span>
+            <span>HTML • CSS • JS</span>
+            <span>PHP • MySQL • TypeScript • GitHub</span>
+            <span>&lt;/developer&gt;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Turning ideas into <span>web experiences</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm Junaid, a beginner web developer focused on
+            building responsive and easy-to-use websites. I enjoy learning new
+            technologies and turning ideas into practical projects.
+          </p>
+          <p>
+            My current focus is web development with HTML, CSS, JavaScript, PHP
+            and MySQL, while continuing to improve my programming and design skills.
+          </p>
+          <a href="#contact" class="text-link">Let's work together →</a>
+        </div>
+
+        <div class="info-cards reveal">
+          <div class="info-card">
+            <strong>01</strong>
+            <h3>Clean Code</h3>
+            <p>Simple and organized code that is easier to maintain.</p>
+          </div>
+          <div class="info-card">
+            <strong>02</strong>
+            <h3>Responsive</h3>
+            <p>Layouts designed to work across desktop, tablet and mobile.</p>
+          </div>
+          <div class="info-card">
+            <strong>03</strong>
+            <h3>User Focused</h3>
+            <p>Interfaces designed with clarity and usability in mind.</p>
+          </div>
+          <div class="info-card">
+            <strong>04</strong>
+            <h3>Always Learning</h3>
+            <p>Continuously improving through practice and new projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+     <section class="section skills" id="skills">
+
+  <div class="section-heading reveal">
+    <p class="eyebrow">MY SKILLS</p>
+    <h2>Skills</h2>
+    <p>A showcase of my skills and the technologies I work with.</p>
+  </div>
+
+  <div class="skills-cards">
+
+    <!-- Web Development -->
+    <div class="skill-card web-card reveal">
+      <div class="skill-card-header">
+        <div class="skill-icon">&lt;/&gt;</div>
+        <h3>Frontend Development</h3>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>HTML5</span>
+          <span>90%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="90%"></span>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>CSS3</span>
+          <span>90%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="90%"></span>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>JavaScript</span>
+          <span>85%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="85%"></span>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>TypeScript</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="80%"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Back-End Development -->
+    <div class="skill-card backend-card reveal">
+      <div class="skill-card-header">
+        <div class="skill-icon">DB</div>
+        <h3>Back-End Development</h3>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>PHP</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="80%"></span>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>MySQL</span>
+          <span>85%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="85%"></span>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>GitHub</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="80%"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Graphic Design -->
+    <div class="skill-card design-card reveal">
+      <div class="skill-card-header">
+        <div class="skill-icon">✎</div>
+        <h3>Graphic Design</h3>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>Adobe Photoshop</span>
+          <span>85%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="85%"></span>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>Adobe Illustrator</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="80%"></span>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>Canva</span>
+          <span>90%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="90%"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Microsoft Office -->
+    <div class="skill-card office-card reveal">
+      <div class="skill-card-header">
+        <div class="skill-icon">O</div>
+        <h3>Office Tools</h3>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>MS Word</span>
+          <span>90%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="90%"></span>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>MS Excel</span>
+          <span>85%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="85%"></span>
+        </div>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-name">
+          <span>MS PowerPoint</span>
+          <span>85%</span>
+        </div>
+        <div class="skill-progress">
+          <span data-width="85%"></span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's build something <span>great</span></h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p>If you have a project, internship or job opportunity, feel free to contact me.</p>
+          <div class="contact-item"><strong>Email</strong><span>junaidprogrammer6@gmail.com</span></div>
+          <div class="contact-item"><strong>Phone</strong><span>+92 335 8795444</span></div>
+          <div class="contact-item"><strong>Location</strong><span>Pakistan</span></div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <input type="text" id="subject" placeholder="Subject" required>
+          <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+          <p class="form-message" id="formMessage"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Junaid. All Rights Reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <button class="top-btn" id="topBtn" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
